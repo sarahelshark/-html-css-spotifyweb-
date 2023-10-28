@@ -30,6 +30,10 @@ a li {
 
 /*#region utilities*/
 
+.clearfix {
+    overflow: auto;
+  }
+
 /*flex*/
 .d-flex{
     display: flex;
@@ -81,10 +85,17 @@ body{
 .debug aside.sidebar {
     background: aquamarine;
     height: calc(100vh - 100px); /*viewport - footer*/
+    min-width: 150px; /* da modificare nel breakpoint xs*/
 }
 
 .debug #player{
     background-color: #99EE00;
     height: 100px;
+}
+.logo-main {
+    height: 55px;
+    padding: 0.75rem;
+    float: left;
+    position: fixed;
 }
 /*#endregion debug*/
