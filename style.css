@@ -1,3 +1,5 @@
+/*#region common*/
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -6,8 +8,10 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
-a {
+
+a li {
     text-decoration: none;
+    list-style-type: none;
 }
 #wrapper {
     display: flex;
@@ -21,3 +25,41 @@ a {
     --spoty-text:#6F6F6F;/*grigi in pagina da rivedere dopo*/
     --spoty-accent:#99EE00;
 }
+
+/*#endregion common*/
+
+/*#region utilities*/
+
+/*flex*/
+.d-flex{
+    display: flex;
+}
+.d-flex-inline{
+    display: inline-flex;
+}
+.direction-column{
+    flex-direction: column;
+}
+.direction-row{
+    flex-direction: row;
+}
+.d-wrap{
+    flex-wrap: wrap ;
+}
+.no-wrap{
+    flex-wrap: nowrap ;
+}
+/*fine flex*/
+
+/*spacing*/
+/*fine spacing*/
+
+/*containers*/
+/*fine containers*/
+
+/*bottoni*/
+/*fine bottoni*/
+
+
+
+/*#endregion utilities*/
