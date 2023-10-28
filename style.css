@@ -8,6 +8,10 @@
 body {
     font-family: 'Montserrat', sans-serif;
     max-width: 1900px;
+    min-height: 400vh;
+}
+html, body {
+    overflow: hidden;
 }
 
 a li {
@@ -19,6 +23,7 @@ a li {
     display: flex;
     height: calc(100vh - 100px);/*viewport - footer*/
     margin: auto;
+    overflow-y:scroll;
 }
 
 :root{
@@ -96,9 +101,6 @@ body{
     height: 100px;
 }
 
-.logo.clearfix{
-    position: relative;
-}
 .logo-main {
     height: 55px;
     padding: 0.75rem;
