@@ -83,4 +83,8 @@ body{
     height: calc(100vh - 100px); /*viewport - footer*/
 }
 
+.debug #player{
+    background-color: #99EE00;
+    height: 100px;
+}
 /*#endregion debug*/
