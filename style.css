@@ -15,7 +15,7 @@ a li {
 }
 #wrapper {
     display: flex;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 100px);/*viewport - footer*/
 }
 
 :root{
@@ -60,9 +60,7 @@ a li {
 /*bottoni*/
 /*fine bottoni*/
 
-body{
-    background-color: red;
-}
+
 
 .logo-hidden{
     content-visibility: hidden ;
@@ -72,4 +70,17 @@ body{
     height: 55px;
 }
 
+
 /*#endregion utilities*/
+
+/*#region debug*/
+body{
+    background-color: red;
+}
+
+.debug aside.sidebar {
+    background: aquamarine;
+    height: calc(100vh - 100px); /*viewport - footer*/
+}
+
+/*#endregion debug*/
