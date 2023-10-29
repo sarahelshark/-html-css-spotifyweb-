@@ -234,7 +234,12 @@ hr:only-of-type{
 [class^="col-"]{
     padding-left: 1rem;
     padding-right: 1rem;
-    width: calc(100% / 3);
+}
+.col-2{
+    width: calc((100% /12)* 3);
+}
+.col-3{
+    width: calc((100% /12)* 5);
 }
 .col-3.d-flex {
     justify-content: ;
@@ -284,7 +289,7 @@ hr:only-of-type{
 .debug .img-container{
     border: 3px dashed red;
 }
-.debug .row,.col-3{
+.debug .row,.col-3,.col-2{
     border: 3px dashed black;
 }
 
