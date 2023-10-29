@@ -237,9 +237,9 @@ hr:only-of-type{
     width: calc(100% / 3);
 }
 .col-3.d-flex {
-    justify-content: space-between;
+    justify-content: ;
+    align-items: center;
 }
-
 .name>.song-name,.artist{
     font-size: 12px;
     &.song-name{
@@ -252,10 +252,9 @@ hr:only-of-type{
     }
 }
 
-
 .img-container{
-    width: 50px ;
-    height: 50px;
+    max-width: 35px ;
+    max-height: 35px;
 }
 .img-container img{
     width: 100%;
@@ -285,7 +284,7 @@ hr:only-of-type{
 .debug .img-container{
     border: 3px dashed red;
 }
-.debug .row{
+.debug .row,.col-3{
     border: 3px dashed black;
     
 }
