@@ -119,15 +119,13 @@ a,li {
 li{
     padding-bottom: 10px;
 }
+
 .aside-nav span:only-of-type{
-    color:var(--spoty-white);
+    color:var(--spoty-text);
+    font-weight: 900;
 }
 ::before {
-    color: var(--spoty-white);
-}
-i.fa-solid.fa-grip-lines-vertical {
-    color:var(--spoty-white) ;
-    
+    color: var(--spoty-text);
 }
 
 /*bottom- inserire qui paylist*/
