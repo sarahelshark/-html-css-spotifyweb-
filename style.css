@@ -127,7 +127,7 @@ i.fa-solid.fa-grip-lines-vertical {
 /*************************************************************/
 
 /*#region upgrade*/
-.upgrade{
+.container-top{
     height: 55px;
     width: 100%;
 }
@@ -159,7 +159,7 @@ i.fa-solid.fa-grip-lines-vertical {
 .debug #player{
     background-color: #99EE00;
 }
-.debug .upgrade{
+.debug .container-top{
     background-color: aqua;
 }
 
