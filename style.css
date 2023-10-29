@@ -86,10 +86,13 @@ a,li {
 
 /*#region sidebar*/
 /*top*/
+aside.sidebar.d-flex.direction-column {
+    position: relative;
+}
 .logo-hidden{
     height: 30px;
     margin: 5px 0.5rem ;
-    position: fixed; 
+    position: absolute; 
     top: 0;
     left: 0;
     display: none;
@@ -98,7 +101,7 @@ a,li {
     height: 50px;
     padding-top: 0.5rem;
     padding-left: 0.5rem;
-    position: fixed; 
+    position: absolute; 
     top: 0;
     left: 0;
 }
@@ -131,7 +134,7 @@ li{
     color: var(--spoty-text);
 }
 
-/*bottom*/
+/*center*/
 
 .playlist-nav>ul {
     padding-top: 20px;
@@ -158,6 +161,13 @@ strong {
     color: var(--spoty-white);
 }
 
+/*bottom*/
+.bottom-nav>div {
+    padding-top: 8rem; /*provvisorio*/
+    padding-left: 0.75rem;  /*allineamento con il logo sopra*/
+    display: flex;
+    flex-direction: column;
+}  
 
 
 /*#endregion sidebar*/
