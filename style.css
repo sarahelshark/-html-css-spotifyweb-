@@ -140,9 +140,16 @@ li{
     flex-direction: column;
     align-items: flex-start; 
 }  
-li{
+.aside-nav.d-flex li{
     padding-bottom: 10px;
+    line-height: 10px;
 }
+ul.side li{
+    padding-bottom: 20px;
+    line-height: 15px;
+}
+
+
 .playlist-nav span:only-of-type{
     color:var(--spoty-text);
     font-weight: 900;
@@ -150,6 +157,9 @@ li{
 strong {
     color: var(--spoty-white);
 }
+
+
+
 /*#endregion sidebar*/
 /*************************************************************/
 
@@ -223,6 +233,9 @@ strong {
         display: flex;
         flex-direction: column;
     }  
+    .playlist-nav.d-flex {
+        display: none;
+    }
 } 
 /*end of sm breakpoint*/
 
