@@ -177,13 +177,15 @@ strong {
 }
 
 hr:only-of-type{
-    margin-top: 10px;
+    margin-top: 15px;
     width: 150px;
-    height: 2px;
+    height: 1px;
     border: none;
     background-color: var(--spoty-text);
 }
-
+.user{
+    padding-top: 10px;
+}
 /*#endregion sidebar*/
 /*************************************************************/
 
