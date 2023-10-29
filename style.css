@@ -292,6 +292,7 @@ hr:only-of-type{
 .col-3.d-flex>.barra.d-flex{
     justify-content: space-between;
     align-items: center;
+    padding-top: 10px;
 }
 
 .song{
@@ -307,6 +308,10 @@ hr:only-of-type{
     background-color: var(--spoty-white);
     border-radius: 6px;
 }
+.duration{
+    line-height: 15px;
+    font-size: 10px;
+}
 /*#endregion bottom player*/
 /*************************************************************/
 
@@ -316,7 +321,7 @@ hr:only-of-type{
     background-color: red;
 }
 .debug #player{
-    background-color: #99EE00;
+    background-color: yellowgreen;
 }
 .debug .container-top{
     background-color: aqua;
