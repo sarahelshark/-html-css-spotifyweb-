@@ -283,10 +283,14 @@ hr:only-of-type{
 
 .top-control.d-flex span>i:before{
     color:var(--spoty-white);
-    padding: 15px;
+    padding:15px;
 }
-.debug .col-3.d-flex>div:not(.name,.icons,.img-container){
+.col-3.d-flex>div:not(.name,.icons,.img-container){
     color: var(--spoty-white); 
+}
+
+.col-3.d-flex>.barra.d-flex{
+    justify-content: space-between;
 }
 
 /*#endregion bottom player*/
