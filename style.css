@@ -262,6 +262,10 @@ hr:only-of-type{
     .playlist-nav.d-flex {
         display: none;
     }
+    
+    .bottom-nav.d-flex {
+        display: none;
+    }
 } 
 /*end of sm breakpoint*/
 
