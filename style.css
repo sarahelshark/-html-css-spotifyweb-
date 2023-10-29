@@ -237,7 +237,7 @@ hr:only-of-type{
     padding-right: 1rem;
 }
 .col-2{
-    width: calc((100% /12)* 3);
+    width: calc((100% /12)* 2.75rem);
 }
 .col-3{
     width: calc((100% /12)* 5);
@@ -266,6 +266,9 @@ hr:only-of-type{
 .img-container img{
     width: 100%;
     
+}
+.col-2.d-flex {
+    justify-content: space-between;
 }
 
 .row>div:nth-child(2){
@@ -308,6 +311,7 @@ hr:only-of-type{
 .debug .row,.col-3,.col-2{
     border: 3px dashed black;
 }
+
 
 .debug .col-3.d-flex>div:not(.name,.icons,.img-container){
     border: 2px solid red; /*soluzione per vbisualizzare divisone flex items*/    
