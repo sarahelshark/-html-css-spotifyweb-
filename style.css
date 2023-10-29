@@ -291,8 +291,22 @@ hr:only-of-type{
 
 .col-3.d-flex>.barra.d-flex{
     justify-content: space-between;
+    align-items: center;
 }
 
+.song{
+    width: 85%;
+    height: 6px;
+    border: 1px solid var(--spoty-text);
+    background:var(--spoty-text);
+    border-radius: 3px;
+}
+.square{
+    width: 45%;
+    height:100%;
+    background-color: var(--spoty-white);
+    border-radius: 6px;
+}
 /*#endregion bottom player*/
 /*************************************************************/
 
