@@ -220,7 +220,8 @@ hr:only-of-type{
     height: 100px;
     width: 100%;
     max-width: 1900px;
-    margin: auto;
+    margin: auto;   
+    /*  tolto: "position: fixed; bottom: 0;" ===>vedo come si comporta nella media query*/
 }
 .row{
     display: flex;
@@ -247,6 +248,7 @@ hr:only-of-type{
 }
 .name>.song-name,.artist{
     font-size: 12px;
+
     &.song-name{
         color: var(--spoty-white);
         font-weight: 900;
@@ -265,8 +267,21 @@ hr:only-of-type{
     width: 100%;
     
 }
-/*  tolto: "position: fixed; bottom: 0;" ===>vedo come si comporta nella media query*/
 
+.row>div:nth-child(2){
+    flex-direction: column;
+
+}  /*selezione per gestire le direzioni di flex in un flex container principale*/
+
+ .col-3.d-flex>div:not(.name,.icons,.img-container){
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.top-control.d-flex span>i:before{
+    color:var(--spoty-white);
+    font-weight: 900;
+}
 /*#endregion bottom player*/
 /*************************************************************/
 
@@ -294,11 +309,8 @@ hr:only-of-type{
 }
 
 .debug .col-3.d-flex>div:not(.name,.icons,.img-container){
-    border: 2px solid red; /*soluzione per vbisualizzare divisone flex items*/
+    border: 2px solid red; /*soluzione per vbisualizzare divisone flex items*/    
 }
-.row>div:nth-child(2){
-    flex-direction: column;
-}  /*selezione per gestire le direzioni di flex in un flex container principale*/
 
 /*#endregion debug*/
 /*************************************************************/
