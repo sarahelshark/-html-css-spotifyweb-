@@ -193,8 +193,20 @@ hr:only-of-type{
 .container-top{
     height: 55px;
     width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    
 }
-
+.btn-large{
+    font-weight: 900;
+    color: var(--spoty-white);
+    display: flex;
+    flex-direction: row;
+    border: 2px solid var(--spoty-white);
+    border-radius: 30px;
+    padding: 8px 28px;
+    margin-right: 0.5rem;
+}
 /*#endregion upgrade*/
 /*************************************************************/
 
