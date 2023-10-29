@@ -168,7 +168,21 @@ strong {
     display: flex;
     flex-direction: column;
 }  
+.bottom-nav span:only-of-type{
+    color:var(--spoty-text);
+    font-weight: 900;
+}
+::before {
+    color: var(--spoty-text);
+}
 
+hr:only-of-type{
+    margin-top: 10px;
+    width: 150px;
+    height: 2px;
+    border: none;
+    background-color: var(--spoty-text);
+}
 
 /*#endregion sidebar*/
 /*************************************************************/
