@@ -238,14 +238,28 @@ hr:only-of-type{
 }
 .col-2{
     width: calc((100% /12)* 2.75rem);
+    height: 100%;
+    align-items: center;
 }
 .col-3{
     width: calc((100% /12)* 5);
+    height: 100%;
+}
+
+.col-4{
+    width: calc(100% / 12 * 2.75);
+    height: 100%;
+    border:2px dashed blue;
 }
 .col-3.d-flex {
-    justify-content: ;
-    align-items: center;
+    justify-content:center ;
+
 }
+
+.col-4.tools.d-flex{
+     align-items: center;
+    }
+
 .name>.song-name,.artist{
     font-size: 12px;
 
@@ -312,6 +326,27 @@ hr:only-of-type{
     line-height: 15px;
     font-size: 10px;
 }
+
+.song-sm{
+    width: 30%;
+    height: 6px;
+    border: 1px solid var(--spoty-text);
+    background:var(--spoty-text);
+    border-radius: 3px;
+}
+.square-sm{
+    width: 25%;
+    height:100%;
+    background-color: var(--spoty-white);
+    border-radius: 6px;
+}
+.col-4.tools.d-flex span>i:before{
+    color:var(--spoty-white);
+}
+.col-4.tools.d-flex>span,i{
+    padding: 5px;
+}
+
 /*#endregion bottom player*/
 /*************************************************************/
 
