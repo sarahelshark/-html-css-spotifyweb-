@@ -80,14 +80,22 @@ a,li {
 /*#endregion utilities*/
 /*************************************************************/
 
+
 /*#region sidebar*/
 /*top*/
 .logo-hidden{
-    content-visibility: hidden ;
+    height: 30px;
+    margin-top: 5px;
+    padding-left: 0.5rem;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    display: none;
 }
 .logo-main {
-    height: 55px;
-    padding: 0.75rem;
+    height: 50px;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
     position: fixed; 
     top: 0;
     left: 0;
@@ -103,7 +111,7 @@ a,li {
     padding-right:  20px;
 }
 .aside-nav>ul {
-    padding-top: 50px;
+    padding-top: 70px;
     padding-left: 0.75rem;  /*allineamento con il logo sopra*/
     align-items: flex-start; 
 }  
@@ -164,7 +172,53 @@ i.fa-solid.fa-grip-lines-vertical {
 }
 
 .debug aside.sidebar {
-    background: aquamarine;
+    background: black;
 }
 
 /*#endregion debug*/
+/*************************************************************/
+
+/*#region mediaquery*/
+
+@media screen and (max-width:576px){
+    aside.sidebar.d-flex.direction-column {
+        min-width: 0;
+        width: 50px;
+    }
+    .logo-main{
+        display: none;
+    }
+    .logo-hidden{
+        display: flex;
+    }
+    a>span{
+        display: none;
+
+    }
+    .aside-nav>ul {
+        padding-top: 45px;
+        padding-left: 0.75rem;  /*allineamento con il logo sopra*/
+        align-items: flex-start; 
+        justify-content: center;
+        margin: auto;
+    }  
+} 
+/*end of sm breakpoint*/
+
+@media screen and (max-width:768px){
+    
+} 
+/*end of md breakpoint*/
+
+@media screen and (max-width:992px){
+    
+} 
+/*end of lg breakpoint*/
+
+@media screen and (max-width:1200px){
+    
+} 
+/*end of breakpoint*/
+
+/*#endregion mediaquery*/
+/*************************************************************/
