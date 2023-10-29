@@ -8,6 +8,8 @@
 body {
     font-family: 'Montserrat', sans-serif;
     max-width: 1900px;
+    min-width: 320px;
+    min-height: 320px;
 }
 html, body {
     overflow: hidden; /*blocca lo scroll dell'intera pagina*/
@@ -34,6 +36,7 @@ a,li {
 }
 
 /*#endregion common*/
+/*************************************************************/
 
 /*#region utilities*/
 
@@ -41,8 +44,8 @@ a,li {
     overflow: auto;
   }
 
-/*flex*/
-.d-flex{
+                                   /*flex*/
+.d-flex{                          
     display: flex;
 }
 .d-flex-inline{
@@ -60,55 +63,28 @@ a,li {
 .no-wrap{
     flex-wrap: nowrap ;
 }
-/*fine flex*/
+                                   /*fine flex*/
 
-/*spacing*/
+                                   /*spacing*/
+
 /*fine spacing*/
 
-/*containers*/
+                                    /*containers*/
+
 /*fine containers*/
 
-/*bottoni*/
+                                     /*bottoni*/
+                                   
 /*fine bottoni*/
 
+/*#endregion utilities*/
+/*************************************************************/
 
-
+/*#region sidebar*/
+/*top*/
 .logo-hidden{
     content-visibility: hidden ;
 }
-
-.logo-main{
-    height: 55px;
-}
-
-
-/*#endregion utilities*/
-
-/*#region debug*/
-
-body{
-    background-color: red;
-}
-
-.debug aside.sidebar {
-    background: aquamarine;
-    height: calc(100vh - 100px);/*viewport - footer*/
-    min-width: 190px;/* da modificare nel breakpoint xs*/
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding-right:  20px;
-}
-
-.debug #player{
-    background-color: #99EE00;
-    height: 100px;
-    width: 100%;
-    text-align: center;
-    position: fixed;
-    bottom: 0; 
-}
-
 .logo-main {
     height: 55px;
     padding: 0.75rem;
@@ -116,20 +92,21 @@ body{
     top: 0;
     left: 0;
 }
+/*center*/
 
-.upgrade{
-    height: 55px;
-    background-color: aqua;
-    width: 100%;
+ aside.sidebar {
+    height: calc(100vh - 100px);/*viewport - footer*/
+    min-width: 190px;/* da modificare nel breakpoint xs*/
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-right:  20px;
 }
-
 .aside-nav>ul {
     padding-top: 50px;
     padding-left: 0.75rem;  /*allineamento con il logo sopra*/
-    align-items: flex-start;
-    
-}  /* primo gruppo sotto il logo*/
-
+    align-items: flex-start; 
+}  
 li{
     padding-bottom: 10px;
 }
@@ -138,12 +115,56 @@ li{
 }
 ::before {
     color: var(--spoty-white);
-    
-
 }
 i.fa-solid.fa-grip-lines-vertical {
     color:var(--spoty-white) ;
     
+}
+
+/*bottom- inserire qui paylist*/
+
+/*#endregion sidebar*/
+/*************************************************************/
+
+/*#region upgrade*/
+.upgrade{
+    height: 55px;
+    width: 100%;
+}
+
+/*#endregion upgrade*/
+/*************************************************************/
+
+/*#region main*/
+/*#endregion main*/
+/*************************************************************/
+
+/*#region bottom player*/
+
+#player{
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+/*  tolto: "position: fixed; bottom: 0;" ===>vedo come si comporta nella media query*/
+
+/*#endregion bottom player*/
+/*************************************************************/
+
+/*#region debug*/
+
+.debug {
+    background-color: red;
+}
+.debug #player{
+    background-color: #99EE00;
+}
+.debug .upgrade{
+    background-color: aqua;
+}
+
+.debug aside.sidebar {
+    background: aquamarine;
 }
 
 /*#endregion debug*/
