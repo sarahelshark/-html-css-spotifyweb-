@@ -219,13 +219,43 @@ hr:only-of-type{
 #player{
     height: 100px;
     width: 100%;
+    max-width: 1900px;
+    margin: auto;
 }
-.song-name.dflex{
+.row{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 -1rem;
+    height: 100%;
     align-items: center;
+    justify-content: space-between;
+   
 }
+[class^="col-"]{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: calc(100% / 3);
+}
+.col-3.d-flex {
+    justify-content: space-between;
+}
+
+.name>.song-name,.artist{
+    font-size: 12px;
+    &.song-name{
+        color: var(--spoty-white);
+        font-weight: 900;
+    }
+    &.artist{
+        color: var(--spoty-text);
+        font-weight: 900;
+    }
+}
+
+
 .img-container{
-    width: 60px ;
-    height: 60px;
+    width: 50px ;
+    height: 50px;
 }
 .img-container img{
     width: 100%;
@@ -255,6 +285,11 @@ hr:only-of-type{
 .debug .img-container{
     border: 3px dashed red;
 }
+.debug .row{
+    border: 3px dashed black;
+    
+}
+
 /*#endregion debug*/
 /*************************************************************/
 
