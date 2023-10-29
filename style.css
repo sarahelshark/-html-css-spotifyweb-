@@ -109,7 +109,7 @@ aside.sidebar.d-flex.direction-column {
 
  aside.sidebar {
     height: calc(100vh - 100px);/*viewport - footer*/
-    min-width: 190px;/* da modificare nel breakpoint xs*/
+    min-width: 190px;/* modificato nel breakpoint xs*/
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
