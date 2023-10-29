@@ -280,8 +280,9 @@ hr:only-of-type{
 
 .top-control.d-flex span>i:before{
     color:var(--spoty-white);
-    font-weight: 900;
 }
+
+
 /*#endregion bottom player*/
 /*************************************************************/
 
