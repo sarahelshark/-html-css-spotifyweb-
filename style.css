@@ -85,14 +85,19 @@ a,li {
 /*#endregion utilities*/
 
 /*#region debug*/
+
 body{
     background-color: red;
 }
 
 .debug aside.sidebar {
     background: aquamarine;
-    height: calc(100vh - 100px); /*viewport - footer*/
-    min-width: 150px; /* da modificare nel breakpoint xs*/
+    height: calc(100vh - 100px);/*viewport - footer*/
+    min-width: 190px;/* da modificare nel breakpoint xs*/
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-right:  20px;
 }
 
 .debug #player{
@@ -120,13 +125,25 @@ body{
 
 .aside-nav>ul {
     padding-top: 50px;
-    padding-left: 20px;
+    padding-left: 0.75rem;  /*allineamento con il logo sopra*/
+    align-items: flex-start;
     
-}
+}  /* primo gruppo sotto il logo*/
+
 li{
-    flex-grow: 1 ;
+    padding-bottom: 10px;
 }
 .aside-nav span:only-of-type{
     color:var(--spoty-white);
 }
+::before {
+    color: var(--spoty-white);
+    
+
+}
+i.fa-solid.fa-grip-lines-vertical {
+    color:var(--spoty-white) ;
+    
+}
+
 /*#endregion debug*/
