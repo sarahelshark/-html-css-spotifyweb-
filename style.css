@@ -286,8 +286,14 @@ hr:only-of-type{
 }
 .debug .row,.col-3{
     border: 3px dashed black;
-    
 }
+
+.debug .col-3.d-flex>div:not(.name,.icons,.img-container){
+    border: 2px solid red; /*soluzione per vbisualizzare divisone flex items*/
+}
+.row>div:nth-child(2){
+    flex-direction: column;
+}  /*selezione per gestire le direzioni di flex in un flex container principale*/
 
 /*#endregion debug*/
 /*************************************************************/
