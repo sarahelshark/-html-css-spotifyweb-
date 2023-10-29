@@ -163,7 +163,7 @@ strong {
 
 /*bottom*/
 .bottom-nav>div {
-    padding-top: 8rem; /*provvisorio*/
+    padding-top:calc(100vh - 680px);
     padding-left: 0.75rem;  /*allineamento con il logo sopra*/
     display: flex;
     flex-direction: column;
@@ -278,6 +278,10 @@ hr:only-of-type{
     
     .user>span , div>hr{
         display:none;
+    }
+
+    .bottom-nav>div {
+        padding-top: calc(100vh - 280px);
     }
 } 
 /*end of sm breakpoint*/
