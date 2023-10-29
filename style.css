@@ -278,13 +278,16 @@ hr:only-of-type{
 
  .col-3.d-flex>div:not(.name,.icons,.img-container){
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .top-control.d-flex span>i:before{
     color:var(--spoty-white);
+    padding: 15px;
 }
-
+.debug .col-3.d-flex>div:not(.name,.icons,.img-container){
+    color: var(--spoty-white); 
+}
 
 /*#endregion bottom player*/
 /*************************************************************/
@@ -314,7 +317,8 @@ hr:only-of-type{
 
 
 .debug .col-3.d-flex>div:not(.name,.icons,.img-container){
-    border: 2px solid red; /*soluzione per vbisualizzare divisone flex items*/    
+    border: 2px solid red; /*soluzione per vbisualizzare divisone flex items*/   
+    color: var(--spoty-white); 
 }
 
 /*#endregion debug*/
