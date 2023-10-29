@@ -262,7 +262,6 @@ hr:only-of-type{
     }
     a>span{
         display: none;
-
     }
     .aside-nav>ul {
         padding-top: 45px;
@@ -277,8 +276,8 @@ hr:only-of-type{
         display: none;
     }
     
-    .bottom-nav.d-flex {
-        display: none;
+    .user>span , div>hr{
+        display:none;
     }
 } 
 /*end of sm breakpoint*/
