@@ -43,6 +43,9 @@ a,li {
 .clearfix {
     overflow: auto;
   }
+.uppercase{
+    text-transform: uppercase;
+}
 
                                    /*flex*/
 .d-flex{                          
@@ -128,8 +131,25 @@ li{
     color: var(--spoty-text);
 }
 
-/*bottom- inserire qui paylist*/
+/*bottom*/
 
+.playlist-nav>ul {
+    padding-top: 20px;
+    padding-left: 0.75rem;  /*allineamento con il logo sopra*/
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}  
+li{
+    padding-bottom: 10px;
+}
+.playlist-nav span:only-of-type{
+    color:var(--spoty-text);
+    font-weight: 900;
+}
+strong {
+    color: var(--spoty-white);
+}
 /*#endregion sidebar*/
 /*************************************************************/
 
