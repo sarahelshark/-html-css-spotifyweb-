@@ -108,7 +108,7 @@ aside.sidebar.d-flex.direction-column {
 /*center*/
 
  aside.sidebar {
-    height: calc(100vh - 100px);/*viewport - footer*/
+    height: calc(100vh + 100px);/*viewport - footer*/
     min-width: 190px;/* modificato nel breakpoint xs*/
     display: flex;
     align-items: flex-start;
@@ -220,6 +220,7 @@ hr:only-of-type{
     height: 100px;
     width: 100%;
     text-align: center;
+    display: flex;
 }
 /*  tolto: "position: fixed; bottom: 0;" ===>vedo come si comporta nella media query*/
 
@@ -240,6 +241,7 @@ hr:only-of-type{
 
 .debug aside.sidebar {
     background: black;
+    height: calc(100vh + 100px);
 }
 
 /*#endregion debug*/
