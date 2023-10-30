@@ -397,6 +397,15 @@ hr:only-of-type{
 }
 .section-titles>a{
     padding-left: 10px;
+    font-weight: 900;
+    color: var(--spoty-text);
+}
+
+#site_main>h2{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-weight: 900;
+    color: var(--spoty-white);
 }
 /*#endregion debug*/
 /*************************************************************/
