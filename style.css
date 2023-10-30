@@ -401,17 +401,20 @@ hr:only-of-type{
     color: var(--spoty-text);
 }
 
-#site_main>h2{
+#site_main>h2,span{
     color: var(--spoty-white);
     padding-top: 10px;
     padding-left: 10px;
 }
 
+
+
 .container-lg{
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
-    justify-content: space-evenly; /*poi vediamo*/
+    justify-content: flex-start; /*poi vediamo*/
+    padding-left: 10px;
 }
 .album-container{
     background-image: url(./img/metal_lifting.jpg);
@@ -427,7 +430,17 @@ hr:only-of-type{
     align-items: center;
     justify-content: center;
 }
+.container-selected{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start; /*poi vediamo*/
+    padding-left: 10px;
+}
 
+.album-container>img{
+    height: 200px;
+}
 /*#endregion debug*/
 /*************************************************************/
 
