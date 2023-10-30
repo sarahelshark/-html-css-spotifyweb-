@@ -422,7 +422,7 @@ hr:only-of-type{
 }
 .img-overlay{
     background-color: #e6e6e675;;
-    height: 200px;
+    height: 150px;
     aspect-ratio: 1/1;
 }
 .img-overlay:only-child{
@@ -438,8 +438,9 @@ hr:only-of-type{
 }
 
 .album-container>img{
-    height: 200px;
+    height: 150px;
 }
+
 
 /*#endregion debug*/
 /*************************************************************/
