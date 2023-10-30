@@ -109,7 +109,7 @@ aside.sidebar.d-flex.direction-column {
 
  aside.sidebar {
     height: calc(100vh + 100px);/*viewport - footer*/
-    min-width: 190px;/* modificato nel breakpoint xs*/
+    width: 190px;/* modificato nel breakpoint xs*/
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -402,10 +402,9 @@ hr:only-of-type{
 }
 
 #site_main>h2{
-    padding-left: 20px;
-    padding-top: 20px;
-    font-weight: 900;
     color: var(--spoty-white);
+    padding-top: 10px;
+    padding-left: 10px;
 }
 /*#endregion debug*/
 /*************************************************************/
@@ -443,7 +442,7 @@ hr:only-of-type{
 
 @media screen and (max-width:596px){
     aside.sidebar.d-flex.direction-column {
-        min-width: 0;
+        width: 0;
         width: 50px;
     }
     .logo-main{
