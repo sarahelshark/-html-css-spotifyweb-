@@ -411,7 +411,7 @@ hr:only-of-type{
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-evenly; /*poi vediamo*/
 }
 .album-container{
     background-image: url(./img/metal_lifting.jpg);
