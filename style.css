@@ -385,7 +385,36 @@ hr:only-of-type{
 
 /*#region mediaquery*/
 
-@media screen and (max-width:576px){
+@media screen and (max-width:552px){
+    
+.row>div:nth-child(3) {
+   flex-direction: column;
+   justify-content: flex-end;
+}
+.song-sm{
+    display: none;
+}
+.col-4.tools.d-flex>span,i{
+    padding: 3px 0;
+}
+.col-4.tools.d-flex {
+    align-items: center;
+    padding-left: 50px;
+}
+
+} 
+
+ /*N.B. NON RICHIESTO NELLA CONSEGNA- scatto + piccolo dove faccio incolonnare icone ad angolo dx, per una lettura al minimo di 375 px */
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:596px){
     aside.sidebar.d-flex.direction-column {
         min-width: 0;
         width: 50px;
@@ -417,18 +446,17 @@ hr:only-of-type{
     }
 
     .bottom-nav>div {
-        padding-top: calc(100vh - 280px);
+        padding-top: calc(100vh - 330px);
     }
 
-  
     .col-2.d-flex{
         justify-content: space-between;
         min-width: calc(100% / 3);
         min-height: calc(100% / 2);
     }
     .img-container {
-        min-width: 35px;
-        min-height: 35px;
+        min-width: 50px;
+        min-height: 50px;
     }
     .top-control.d-flex span>i:before {
         padding: 5px;
@@ -442,13 +470,62 @@ hr:only-of-type{
     .row>div:nth-child(3){
         min-width: calc(100% / 3);
     }
+    
+
+
 } 
 /*end of sm breakpoint*/
 
+
 @media screen and (max-width:768px){
+    
+    .logo-main{
+        padding-bottom: 5px;
+        
+    }
+   
+    .aside-nav>ul {
+        padding-top: 60px;
+        padding-left: 0.75rem;  /*allineamento con il logo sopra*/
+        align-items: flex-start; 
+        justify-content: center;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }  
+    
+    
+    .bottom-nav>div {
+        padding-top: calc(100vh - 710px);
+    }
+
+    .col-2.d-flex{
+        min-width: calc(100% / 3);
+        min-height: calc(100% / 2);
+    }
+    .img-container {
+        min-width: 50px;
+        min-height: 50px;
+    }
+    .top-control.d-flex span>i:before {
+        padding: 5px;
+    }
+    
+    .row>div:nth-child(3){
+        min-width: calc(100% / 3);
+    }
     
 } 
 /*end of md breakpoint*/
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width:992px){
     
