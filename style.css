@@ -190,6 +190,8 @@ hr:only-of-type{
 /*#endregion sidebar*/
 /*************************************************************/
 
+/*#region main*/
+
 /*#region upgrade*/
 
 #site_main{
@@ -215,9 +217,6 @@ hr:only-of-type{
 }
 /*#endregion upgrade*/
 /*************************************************************/
-
-/*#region main*/
-
 
 /*#endregion main*/
 /*************************************************************/
@@ -387,6 +386,18 @@ hr:only-of-type{
     color: var(--spoty-white); 
 }
 
+.debug .section-titles {
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 10px;
+    line-height: 25px;
+    font-weight: 900;
+}
+.section-titles>a{
+    padding-left: 10px;
+}
 /*#endregion debug*/
 /*************************************************************/
 
