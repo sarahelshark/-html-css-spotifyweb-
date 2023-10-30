@@ -386,6 +386,7 @@ hr:only-of-type{
     color: var(--spoty-white); 
 }
 
+
 .debug .section-titles {
     background-color: yellow;
     display: flex;
@@ -406,8 +407,6 @@ hr:only-of-type{
     padding-top: 10px;
     padding-left: 10px;
 }
-
-
 
 .container-lg{
     display: flex;
@@ -441,6 +440,7 @@ hr:only-of-type{
 .album-container>img{
     height: 200px;
 }
+
 /*#endregion debug*/
 /*************************************************************/
 
