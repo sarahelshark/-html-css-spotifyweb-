@@ -163,11 +163,12 @@ strong {
 
 /*bottom*/
 .bottom-nav>div {
-    padding-top:calc(100vh - 680px);
+    padding-top:calc(10vh - 20px);
     padding-left: 0.75rem;  /*allineamento con il logo sopra*/
     display: flex;
     flex-direction: column;
 }  
+
 .bottom-nav span:only-of-type{
     color:var(--spoty-text);
     font-weight: 900;
@@ -418,6 +419,29 @@ hr:only-of-type{
     .bottom-nav>div {
         padding-top: calc(100vh - 280px);
     }
+
+  
+    .col-2.d-flex{
+        justify-content: space-between;
+        min-width: calc(100% / 3);
+        min-height: calc(100% / 2);
+    }
+    .img-container {
+        min-width: 35px;
+        min-height: 35px;
+    }
+    .top-control.d-flex span>i:before {
+        padding: 5px;
+    }
+
+    [class^="col-"] {
+        padding-left: 0rem; 
+        padding-right: 0rem; 
+    }
+    
+    .row>div:nth-child(3){
+        min-width: calc(100% / 3);
+    }
 } 
 /*end of sm breakpoint*/
 
@@ -432,6 +456,9 @@ hr:only-of-type{
 /*end of lg breakpoint*/
 
 @media screen and (max-width:1200px){
+    
+} 
+@media screen and (max-width:1440px){
     
 } 
 /*end of breakpoint*/
