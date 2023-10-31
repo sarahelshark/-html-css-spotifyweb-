@@ -29,7 +29,9 @@ a,li {
 
 :root{
     --spoty-side:#000000;
-    --spoty-upgrade:#070B13;
+    --spoty-upgrade:#080B12;
+    --spoty-main:#141922;
+    --spoty-player:#282828;
     --spoty-white:#FFFFFF;
     --spoty-text:#6F6F6F;/*grigi in pagina da rivedere dopo*/
     --spoty-accent:#99EE00;
@@ -177,17 +179,13 @@ strong {
     display: flex;
     flex-direction: column;
 }  
-
 .bottom-nav span:only-of-type{
     color:var(--spoty-text);
     font-weight: 900;
 }
-
 ::before {
     color: var(--spoty-white); 
 }
-
-
 hr:only-of-type{
     width: 150px;
     height: 1px;
@@ -206,6 +204,8 @@ hr:only-of-type{
 
 #site_main{
     width: 1900px;
+    height: calc(100vh + 1000px);/*bg color copre tutta viewport */
+    background-color: var(--spoty-main);
 }
 
 .container-top{
@@ -213,7 +213,7 @@ hr:only-of-type{
     width: 100%;
     align-items: center;
     justify-content: flex-end;
-    
+    background-color: var(--spoty-upgrade);
 }
 .btn-large{
     font-weight: 900;
@@ -308,6 +308,7 @@ a.d-flex.direction-column{
     width: 100%;
     max-width: 1900px;
     margin: auto;   
+    background-color: var(--spoty-player);
     /*  tolto: "position: fixed; bottom: 0;" ===>vedo come si comporta nella media query*/
 }
 .row{
