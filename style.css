@@ -420,7 +420,6 @@ hr:only-of-type{
 .album-container{
     position: relative;
 }
-
 .img-overlay{
     aspect-ratio: 1/1;
     height: 150px;
@@ -437,15 +436,23 @@ hr:only-of-type{
 }
 .album-container:hover .img-overlay {
     opacity : 50%;
-  }
+}
 
-.container-selected{
+a.d-flex.direction-column{
+    align-items: center;
+    padding-right: 10px;
+    color: white;
+    padding-top: 15px;
+}
+
+.container-selected.d-flex{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: flex-start; /*poi vediamo*/
     padding-left: 10px;
 }
+
 
 .album-container.popular>img{
     border-radius: 50%;
