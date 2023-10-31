@@ -88,7 +88,9 @@ aside.sidebar.d-flex.direction-column {
 }
 .logo-hidden{
     height: 30px;
-    margin: 5px 0.5rem ;
+    margin-top: 10px;
+    margin-bottom:3px ;
+    margin-left: 0.5rem ;
     position: absolute; 
     top: 0;
     left: 0;
@@ -96,14 +98,14 @@ aside.sidebar.d-flex.direction-column {
 }
 .logo-main {
     height: 50px;
-    padding-top: 0.5rem;
-    padding-left: 0.5rem;
+    padding-top: 1rem;
+    padding-left: 0.75rem;
     position: absolute; 
     top: 0;
     left: 0;
 }
  aside.sidebar {
-    height: calc(100vh + 100px);/*viewport - footer*/
+    height: calc(100vh + 1000px);/*bg color copre tutta viewport */
     width: 250px;/* modificato nel breakpoint xs*/
     display: flex;
     align-items: flex-start;
@@ -120,8 +122,8 @@ aside.sidebar.d-flex.direction-column {
     flex-direction: column;
     align-items: flex-start; 
 }  
-li{
-    padding-bottom: 10px;
+.aside-nav.d-flex li{
+    line-height: 10px;
 }
 .accent{
     height: 30px;
@@ -135,7 +137,6 @@ li{
     border-radius: 6px;
     background-color: transparent;
 }
-
 .aside-nav span:only-of-type{
     color:var(--spoty-text);
     font-weight: 900;
@@ -157,16 +158,10 @@ li{
     flex-direction: column;
     align-items: flex-start; 
 }  
-.aside-nav.d-flex li{
-    padding-bottom: 10px;
-    line-height: 10px;
-}
 ul.side li{
     padding-bottom: 20px;
     line-height: 15px;
 }
-
-
 .playlist-nav span:only-of-type{
     color:var(--spoty-text);
     font-weight: 900;
@@ -504,8 +499,8 @@ a.d-flex.direction-column{
 
 
 @media screen and (max-width:596px){
+   
     aside.sidebar.d-flex.direction-column {
-        width: 0;
         width: 50px;
     }
     .logo-main{
@@ -522,7 +517,7 @@ a.d-flex.direction-column{
         display: none;
     }
     .aside-nav>ul {
-        padding-top: 45px;
+        padding-top: 50px;
         padding-left: 0.75rem;  /*allineamento con il logo sopra*/
         align-items: flex-start; 
         justify-content: center;
@@ -539,7 +534,7 @@ a.d-flex.direction-column{
     }
 
     .bottom-nav>div {
-        padding-top: calc(100vh - 330px);
+        padding-top:calc(100vh - 120px);
     }
 
     .col-2.d-flex{
@@ -572,14 +567,9 @@ a.d-flex.direction-column{
 
 @media screen and (max-width:768px){
     
-    .logo-main{
-        padding-bottom: 5px;
-        
-    }
-   
     .aside-nav>ul {
-        padding-top: 60px;
-        padding-left: 0.75rem;  /*allineamento con il logo sopra*/
+        padding-top: 65px;
+        padding-left: .75rem;  /*allineamento con il logo sopra*/
         align-items: flex-start; 
         justify-content: center;
         margin: auto;
