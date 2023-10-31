@@ -127,6 +127,9 @@ aside.sidebar.d-flex.direction-column {
 .aside-nav.d-flex li{
     line-height: 10px;
 }
+a.d-flex>span.white{
+    color: var(--spoty-white);
+}
 a.d-flex>span:hover{
     color: var(--spoty-white);
 }
