@@ -106,7 +106,7 @@ aside.sidebar.d-flex.direction-column {
 
  aside.sidebar {
     height: calc(100vh + 100px);/*viewport - footer*/
-    width: 190px;/* modificato nel breakpoint xs*/
+    width: 250px;/* modificato nel breakpoint xs*/
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -171,7 +171,7 @@ strong {
     font-weight: 900;
 }
 ::before {
-    color: var(--spoty-text);
+    color: var(--spoty-white); 
 }
 
 hr:only-of-type{
@@ -433,6 +433,7 @@ hr:only-of-type{
     justify-content: center;
     align-items: center;
 }
+
 
 .container-selected{
     display: flex;
