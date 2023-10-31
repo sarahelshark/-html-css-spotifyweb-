@@ -47,7 +47,7 @@ a,li {
     text-transform: uppercase;
 }
 
-                                   /*flex*/
+ /*flex*/
 .d-flex{                          
     display: flex;
 }
@@ -63,7 +63,7 @@ a,li {
 .no-wrap{
     flex-wrap: nowrap ;
 }
-                                   /*fine flex*/
+/*fine flex*/
 
                                    /*spacing*/
 
@@ -102,8 +102,6 @@ aside.sidebar.d-flex.direction-column {
     top: 0;
     left: 0;
 }
-/*center*/
-
  aside.sidebar {
     height: calc(100vh + 100px);/*viewport - footer*/
     width: 250px;/* modificato nel breakpoint xs*/
@@ -111,6 +109,7 @@ aside.sidebar.d-flex.direction-column {
     align-items: flex-start;
     justify-content: flex-start;
     padding-right:  20px;
+    background-color: var(--spoty-side);
 }
 .aside-nav>ul {
     padding-top: 70px;
@@ -121,6 +120,18 @@ aside.sidebar.d-flex.direction-column {
 }  
 li{
     padding-bottom: 10px;
+}
+.accent{
+    height: 30px;
+    width: 5px;
+    border-radius: 6px;
+    background-color: #99EE00;
+}
+.invisible{
+    height: 30px;
+    width: 5px;
+    border-radius: 6px;
+    background-color: transparent;
 }
 
 .aside-nav span:only-of-type{
@@ -495,6 +506,10 @@ a.d-flex.direction-column{
     .logo-hidden{
         display: flex;
     }
+    .accent,.invisible{
+        display: none;
+    }
+    
     a>span{
         display: none;
     }
