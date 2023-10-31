@@ -188,7 +188,6 @@ hr:only-of-type{
 /*************************************************************/
 
 /*#region main*/
-
 /*#region upgrade*/
 
 #site_main{
@@ -214,7 +213,77 @@ hr:only-of-type{
 }
 /*#endregion upgrade*/
 /*************************************************************/
+.debug .section-titles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 10px;
+    line-height: 25px;
+    font-weight: 900;
+}
+.section-titles>a{
+    padding-left: 10px;
+    font-weight: 900;
+    color: var(--spoty-text);
+}
 
+#site_main>h2,span{
+    color: var(--spoty-white);
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.container-lg{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start; /*poi vediamo*/
+    padding-left: 10px;
+}
+
+.album-container>img{
+    height: 150px;
+}
+
+.album-container{
+    position: relative;
+}
+.img-overlay{
+    aspect-ratio: 1/1;
+    height: 150px;
+    position: absolute;
+    top: 0;
+    background-color : var(--spoty-upgrade);
+    opacity : 0;
+    cursor : pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    transition: all .5s ease;
+}
+.album-container:hover .img-overlay {
+    opacity : 50%;
+}
+
+a.d-flex.direction-column{
+    align-items: center;
+    padding-right: 10px;
+    color:var(--spoty-white);
+    padding-top: 15px;
+}
+
+.container-selected.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start; /*poi vediamo*/
+    padding-left: 10px;
+}
+
+.album-container.popular>img{
+    border-radius: 50%;
+}
 /*#endregion main*/
 /*************************************************************/
 
@@ -303,6 +372,9 @@ hr:only-of-type{
     color:var(--spoty-white);
     padding:15px;
 }
+.debug .col-3.d-flex>div:not(.name,.icons,.img-container){
+    color: var(--spoty-white); 
+}
 .col-3.d-flex>div:not(.name,.icons,.img-container){
     color: var(--spoty-white); 
 }
@@ -377,86 +449,14 @@ hr:only-of-type{
     border: 3px dashed black;
 }
 
-
 .debug .col-3.d-flex>div:not(.name,.icons,.img-container){
-    border: 2px solid red; /*soluzione per vbisualizzare divisone flex items*/   
-    color: var(--spoty-white); 
+    border: 2px solid red; /*soluzione per vbisualizzare divisone flex items*/ 
 }
-
 
 .debug .section-titles {
     background-color: yellow;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    font-size: 10px;
-    line-height: 25px;
-    font-weight: 900;
-}
-.section-titles>a{
-    padding-left: 10px;
-    font-weight: 900;
-    color: var(--spoty-text);
 }
 
-#site_main>h2,span{
-    color: var(--spoty-white);
-    padding-top: 10px;
-    padding-left: 10px;
-}
-
-.container-lg{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: flex-start; /*poi vediamo*/
-    padding-left: 10px;
-}
-
-.album-container>img{
-    height: 150px;
-}
-
-.album-container{
-    position: relative;
-}
-.img-overlay{
-    aspect-ratio: 1/1;
-    height: 150px;
-    position: absolute;
-    top: 0;
-    background-color : var(--spoty-upgrade);
-    opacity : 0;
-    cursor : pointer;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center; 
-    transition: all .5s ease;
-}
-.album-container:hover .img-overlay {
-    opacity : 50%;
-}
-
-a.d-flex.direction-column{
-    align-items: center;
-    padding-right: 10px;
-    color: white;
-    padding-top: 15px;
-}
-
-.container-selected.d-flex{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: flex-start; /*poi vediamo*/
-    padding-left: 10px;
-}
-
-
-.album-container.popular>img{
-    border-radius: 50%;
-}
 /*#endregion debug*/
 /*************************************************************/
 
@@ -482,12 +482,6 @@ a.d-flex.direction-column{
 } 
 
  /*N.B. NON RICHIESTO NELLA CONSEGNA- scatto + piccolo dove faccio incolonnare icone ad angolo dx, per una lettura al minimo di 375 px */
-
-
-
-
-
-
 
 
 
@@ -594,12 +588,6 @@ a.d-flex.direction-column{
     
 } 
 /*end of md breakpoint*/
-
-
-
-
-
-
 
 
 
