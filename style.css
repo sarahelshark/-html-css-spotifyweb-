@@ -152,10 +152,6 @@ a.d-flex>span:hover{
 ::before{
     color: var(--spoty-text);
 }
-#special::before{
-    color: var(--spoty-text);
-}
-
 
 /*center*/
 
@@ -174,9 +170,16 @@ ul.side li{
     color:var(--spoty-text);
     font-weight: 900;
 }
+.playlist-nav span:only-of-type:hover{
+    color:var(--spoty-white);
+}
 strong {
     color: var(--spoty-white);
 }
+#special::before{
+    color: var(--spoty-text);
+}
+
 
 /*bottom*/
 .bottom-nav>div {
@@ -188,6 +191,9 @@ strong {
 .bottom-nav span:only-of-type{
     color:var(--spoty-text);
     font-weight: 900;
+}
+.bottom-nav span:only-of-type:hover{
+    color:var(--spoty-white);
 }
 ::before {
     color: var(--spoty-white); 
