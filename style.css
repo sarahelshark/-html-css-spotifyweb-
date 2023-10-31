@@ -194,7 +194,6 @@ strong {
 
 
 hr:only-of-type{
-    margin-top: 15px;
     width: 150px;
     height: 1px;
     border: none;
@@ -535,7 +534,7 @@ a.d-flex.direction-column{
         display: none;
     }
     
-    .user>span , div>hr{
+    .user>strong , div>hr{
         display:none;
     }
 
