@@ -420,20 +420,24 @@ hr:only-of-type{
 .album-container{
     position: relative;
 }
+
 .img-overlay{
     aspect-ratio: 1/1;
     height: 150px;
     position: absolute;
     top: 0;
-    background-color : lightblue;
-    opacity : 50%;
+    background-color : var(--spoty-upgrade);
+    opacity : 0;
     cursor : pointer;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
+    transition: all .5s ease;
 }
-
+.album-container:hover .img-overlay {
+    opacity : 50%;
+  }
 
 .container-selected{
     display: flex;
