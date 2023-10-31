@@ -119,7 +119,6 @@ aside.sidebar.d-flex.direction-column {
 }
 .aside-nav>ul {
     padding-top: 70px;
-    padding-left: 0.75rem;  /*allineamento con il logo sopra*/
     display: flex;
     flex-direction: column;
     align-items: flex-start; 
@@ -134,9 +133,10 @@ a.d-flex>span:hover{
     color: var(--spoty-white);
 }
 .accent{
-    height: 30px;
+    height: 25px;
     width: 5px;
-    border-radius: 6px;
+    border-radius: 2px;
+    border: none;
     background-color: #99EE00;
 }
 .invisible{
@@ -212,13 +212,14 @@ hr:only-of-type{
 /*************************************************************/
 
 /*#region main*/
-/*#region upgrade*/
-
 #site_main{
     width: 1900px;
     height: calc(100vh + 1000px);/*bg color copre tutta viewport */
     background-color: var(--spoty-main);
 }
+/*#region upgrade*/
+
+
 
 .container-top{
     height: 55px;
@@ -242,17 +243,28 @@ hr:only-of-type{
  .section-titles {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
-    font-size: 10px;
-    line-height: 25px;
-    font-weight: 900;
 }
 .section-titles>a{
-    padding-left: 10px;
+    padding-top: 10px;
+    padding-left: 40px;
     font-weight: 900;
+    font-size: 12px;
+    line-height: 25px;
     color: var(--spoty-text);
 }
-
+.section-titles>a.d-flex{
+    flex-direction: column;
+    align-items: center;
+}
+.active{
+    height: 3px;
+    width: 30px;
+    border-radius: 2px;
+    border: none;
+    background-color: var(--spoty-accent);
+}
 .section-titles>a:hover{
     color: var(--spoty-white);
 }
