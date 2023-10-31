@@ -415,15 +415,19 @@ hr:only-of-type{
     justify-content: flex-start; /*poi vediamo*/
     padding-left: 10px;
 }
-.album-container{
-    background-image: url(./img/metal_lifting.jpg);
-    background-size: cover;
-
+.album-container>img{
+    height: 150px;
 }
 .img-overlay{
-    background-color: #e6e6e675;;
-    height: 150px;
     aspect-ratio: 1/1;
+    height: 150px;
+    position : fixed;
+
+    
+    background-color : lightblue;
+    opacity : 50%;
+    cursor : pointer;
+}
 }
 .img-overlay:only-child{
     align-items: center;
@@ -436,12 +440,12 @@ hr:only-of-type{
     justify-content: flex-start; /*poi vediamo*/
     padding-left: 10px;
 }
-
-.album-container>img{
-    height: 150px;
+.img-overlay.d-flex>img{
+   width: 100%;
 }
-
-
+.album-container.popular>img{
+    border-radius: 50%;
+}
 /*#endregion debug*/
 /*************************************************************/
 
