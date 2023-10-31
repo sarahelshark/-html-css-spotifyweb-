@@ -241,6 +241,9 @@ hr:only-of-type{
     color: var(--spoty-text);
 }
 
+.section-titles>a:hover{
+    color: var(--spoty-white);
+}
 #site_main>h2,span{
     color: var(--spoty-white);
     padding-top: 10px;
