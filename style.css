@@ -172,7 +172,7 @@ strong {
 
 /*bottom*/
 .bottom-nav>div {
-    padding-top:calc(10vh - 20px);
+    padding-top: 120px;
     padding-left: 0.75rem;  /*allineamento con il logo sopra*/
     display: flex;
     flex-direction: column;
@@ -475,6 +475,7 @@ a.d-flex.direction-column{
 
 /*#region mediaquery*/
 
+
 @media screen and (max-width:552px){
     
 .row>div:nth-child(3) {
@@ -534,7 +535,7 @@ a.d-flex.direction-column{
     }
 
     .bottom-nav>div {
-        padding-top:calc(100vh - 120px);
+        padding-top: 350px;
     }
 
     .col-2.d-flex{
@@ -579,8 +580,9 @@ a.d-flex.direction-column{
     
     
     .bottom-nav>div {
-        padding-top: calc(100vh - 710px);
+        padding-top: 350px;
     }
+
 
     .col-2.d-flex{
         min-width: calc(100% / 3);
@@ -602,9 +604,10 @@ a.d-flex.direction-column{
 /*end of md breakpoint*/
 
 
-
-
 @media screen and (max-width:992px){
+    .bottom-nav>div {
+        padding-top: 350px;
+    }
     
 } 
 /*end of lg breakpoint*/
