@@ -185,10 +185,10 @@ strong {
     color: var(--spoty-text);
     font-size: 30px;
 } 
-#special:hover{
+#special:hover::before{
         color: var(--spoty-white);
-        font-size: 35px;
     }
+    
 /*bottom*/
 .bottom-nav>div {
     padding-top: 120px;
@@ -447,8 +447,10 @@ a.d-flex.direction-column>.large {
         text-decoration-line: underline;
     }
 }
-
-.icons>.fa-regular.fa-heart,.fa-regular.fa-folderr{
+.top-control.d-flex span>i.fa-regular.fa-circle-play.fa-2xl:hover::before {
+    font-size: 35px;
+}
+.icons>.fa-regular.fa-heart,.fa-regular.fa-folder{
     color: var(--spoty-text);
 }
 
@@ -478,11 +480,7 @@ a.d-flex.direction-column>.large {
     color:var(--spoty-white);
     padding:10px;
 }
-.top-control.d-flex span>i.far.fa-play-circle.fa-2xl{
-    font-size: 6em;
-    line-height: .03125em;
-    vertical-align: -.1875em;
-}
+
 
  .col-3.d-flex>div:not(.name,.icons,.img-container){
     color: var(--spoty-white); 
