@@ -52,7 +52,9 @@ a,li {
  /*flex*/
 .d-flex{                          
     display: flex;
+    align-items: baseline;
 }
+
 .direction-column{
     flex-direction: column;
 }
@@ -176,7 +178,9 @@ ul.side li{
 strong {
     color: var(--spoty-white);
 }
-
+.user.d-flex.direction-row div:nth-child(2){
+    padding-left: 10px;
+}
 #special::before{
     color: var(--spoty-text);
     font-size: 30px;
