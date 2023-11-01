@@ -55,8 +55,6 @@ a,li {
     align-items: baseline;
 }
 
-
-
 .direction-column{
     flex-direction: column;
 }
@@ -613,7 +611,12 @@ a.d-flex.direction-column>.large {
     .playlist-nav.d-flex {
         display: none;
     }
-    
+    .bottom-nav span:only-of-type {
+        display: none;
+    }
+    .bottom-nav strong:only-of-type {
+        display: none;
+    }
     .user>strong , div>hr{
         display:none;
     }
