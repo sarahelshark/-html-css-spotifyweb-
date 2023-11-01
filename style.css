@@ -259,7 +259,7 @@ a.d-flex.direction-column >h3{
 
 
 .container-top{
-    height: 90px;
+    height: 80px;
     width: 100%;
     align-items: center;
     justify-content: flex-end;
@@ -547,7 +547,7 @@ a.d-flex.direction-column>.large {
     border-radius: 3px;
 }
 .square-sm{
-    width: 25%;
+    width: 35%;
     height:100%;
     background-color: var(--spoty-white);
     border-radius: 6px;
@@ -556,7 +556,7 @@ a.d-flex.direction-column>.large {
     align-items: flex-start;
 }
 .square-sm:hover{
-    width: 25%;
+    width: 35%;
     height:100%;
     background-color: var(--spoty-accent);
     border-radius: 6px;
