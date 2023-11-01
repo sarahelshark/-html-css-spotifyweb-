@@ -203,7 +203,10 @@ strong {
 .bottom-nav span:only-of-type:hover{
     color:var(--spoty-white);
 }
-::before {
+#white::before {
+    color: var(--spoty-white); 
+}
+#icons:hover::before {
     color: var(--spoty-white); 
 }
 hr:only-of-type{
@@ -443,6 +446,10 @@ a.d-flex.direction-column>.large {
         font-weight: 900;
         text-decoration-line: underline;
     }
+}
+
+.icons>.fa-regular.fa-heart,.fa-regular.fa-folderr{
+    color: var(--spoty-text);
 }
 
 .img-container{
