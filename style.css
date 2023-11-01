@@ -492,7 +492,7 @@ a.d-flex.direction-column>.large {
 .col-3.d-flex>.barra.d-flex{
     justify-content: space-between;
     align-items: center;
-    padding-top: 10px;
+    padding-top: 15px;
 }
 
 .song{
@@ -507,10 +507,29 @@ a.d-flex.direction-column>.large {
     height:100%;
     background-color: var(--spoty-white);
     border-radius: 6px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
 }
 .duration{
     line-height: 15px;
     font-size: 10px;
+}
+.square:hover{
+    width: 45%;
+    height:100%;
+    background-color: var(--spoty-accent);
+    border-radius: 6px;
+}
+.pointer{
+    height: 9px;
+    aspect-ratio: 1 / 1;
+    background-color: var(--spoty-white);
+    border: 1px solid var(--spoty-side);
+    border-radius: 50%;
+}
+.pointer:hover{
+    display: block;
 }
 
 .song-sm{
@@ -524,6 +543,15 @@ a.d-flex.direction-column>.large {
     width: 25%;
     height:100%;
     background-color: var(--spoty-white);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+}
+.square-sm:hover{
+    width: 25%;
+    height:100%;
+    background-color: var(--spoty-accent);
     border-radius: 6px;
 }
 .col-4.tools.d-flex span>i:before{
