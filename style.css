@@ -256,7 +256,7 @@ a.d-flex.direction-column >h3{
 
 
 .container-top{
-    height: 55px;
+    height: 90px;
     width: 100%;
     align-items: center;
     justify-content: flex-end;
@@ -264,13 +264,18 @@ a.d-flex.direction-column >h3{
 }
 .btn-large{
     font-weight: 900;
+    font-size: 14px;
     color: var(--spoty-white);
     display: flex;
     flex-direction: row;
     border: 2px solid var(--spoty-white);
     border-radius: 30px;
     padding: 8px 28px;
-    margin-right: 0.5rem;
+    margin-right: 0.75rem;
+}
+.btn-large:hover{
+    padding: 10px 30px;
+    font-size: 15px;
 }
 /*#endregion upgrade*/
 /*************************************************************/
@@ -326,7 +331,6 @@ a.d-flex.direction-column >h3{
 .album-container>img{
     height:200px;
 }
-
 .album-container{
     position: relative;
 }
