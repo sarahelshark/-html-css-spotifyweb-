@@ -176,11 +176,15 @@ ul.side li{
 strong {
     color: var(--spoty-white);
 }
+
 #special::before{
     color: var(--spoty-text);
-}
-
-
+    font-size: 30px;
+} 
+#special:hover{
+        color: var(--spoty-white);
+        font-size: 35px;
+    }
 /*bottom*/
 .bottom-nav>div {
     padding-top: 120px;
@@ -198,6 +202,13 @@ strong {
 ::before {
     color: var(--spoty-white); 
 }
+#interactive::before{
+    color: var(--spoty-text);
+} 
+#interactive:hover{
+        color: var(--spoty-white);
+        font-size: 20px;
+    }
 hr:only-of-type{
     width: 150px;
     height: 1px;
