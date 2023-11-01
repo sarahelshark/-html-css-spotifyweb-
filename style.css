@@ -522,11 +522,12 @@ a.d-flex.direction-column>.large {
     border-radius: 6px;
 }
 .pointer{
-    height: 9px;
+    height: 12px;
     aspect-ratio: 1 / 1;
     background-color: var(--spoty-white);
-    border: 1px solid var(--spoty-side);
+    border: 3px solid var(--spoty-white);
     border-radius: 50%;
+    align-self: center;
 }
 .pointer:hover{
     display: block;
