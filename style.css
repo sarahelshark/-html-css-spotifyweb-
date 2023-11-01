@@ -277,7 +277,7 @@ hr:only-of-type{
 .container-lg{
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-start; /*poi vediamo*/
     padding-left: 10px;
 }
@@ -324,6 +324,9 @@ a.d-flex.direction-column{
 
 .album-container.popular>img{
     border-radius: 50%;
+}
+a.d-flex.direction-column>.large {
+    max-width:150px;
 }
 /*#endregion main*/
 /*************************************************************/
