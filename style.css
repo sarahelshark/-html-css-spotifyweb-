@@ -535,8 +535,10 @@ a.d-flex.direction-column>.large {
 }
 .square.d-flex:hover>.pointer {
     display: block;
-  }
-
+}
+ & .square-sm.d-flex:hover>.pointer {
+    display: block;
+}  
 .song-sm{
     width: 30%;
     height: 6px;
