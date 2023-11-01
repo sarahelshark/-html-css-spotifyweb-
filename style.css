@@ -218,7 +218,16 @@ hr:only-of-type{
 .user{
     padding-top: 10px;
 }
-
+.circle{
+    background-color: var(--spoty-text);
+    border-radius: 50%;
+    height: 20px;
+    aspect-ratio: 1 / 1 ;
+}
+.circle svg{
+    height: 100%;
+    border-radius: 50%;
+}
 /*#endregion sidebar*/
 /*************************************************************/
 
