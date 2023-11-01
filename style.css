@@ -529,9 +529,13 @@ a.d-flex.direction-column>.large {
     border-radius: 50%;
     align-self: center;
 }
-.pointer:hover{
-    display: block;
+
+.pointer{
+    display: none;
 }
+.square.d-flex:hover>.pointer {
+    display: block;
+  }
 
 .song-sm{
     width: 30%;
