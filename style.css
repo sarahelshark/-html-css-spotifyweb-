@@ -217,6 +217,18 @@ hr:only-of-type{
     height: calc(100vh + 1000px);/*bg color copre tutta viewport */
     background-color: var(--spoty-main);
 }
+
+a.d-flex.direction-column >div{
+    color: var(--spoty-text);
+    font-size: 11px ;
+    font-weight: 900;
+    padding-top: 8px;
+}
+a.d-flex.direction-column >h3{
+    font-size: 14px ;
+    font-weight: 900;
+    padding-top: 15px;
+}
 /*#region upgrade*/
 
 
@@ -268,22 +280,29 @@ hr:only-of-type{
 .section-titles>a:hover{
     color: var(--spoty-white);
 }
-#site_main>h2,span{
+#site_main>h2{
     color: var(--spoty-white);
-    padding-top: 10px;
-    padding-left: 5px;
+    padding-top: 15px;
+    padding-left: 20px;
+    font-weight: 900;
 }
-
+#site_main>span{
+    color: var(--spoty-text);
+    font-size: 11px ;
+    font-weight: 900;
+    padding-top: 8px;
+    padding-left: 20px;
+}
 .container-lg{
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
-    justify-content: flex-start; /*poi vediamo*/
-    padding-left: 10px;
+    justify-content: flex-start;
+    padding-left: 20px;
 }
 
 .album-container>img{
-    height: 150px;
+    height:200px;
 }
 
 .album-container{
@@ -291,9 +310,8 @@ hr:only-of-type{
 }
 .img-overlay{
     aspect-ratio: 1/1;
-    height: 150px;
+    height: 200px;
     position: absolute;
-    top: 0;
     background-color : var(--spoty-upgrade);
     opacity : 0;
     cursor : pointer;
@@ -303,13 +321,18 @@ hr:only-of-type{
     align-items: center; 
     transition: all .5s ease;
 }
+.img-overlay>.far.fa-play-circle.fa-2xl {
+    font-size: 6em;
+    line-height: .03125em;
+    vertical-align: -.1875em;
+}
 .album-container:hover .img-overlay {
-    opacity : 50%;
+    opacity : 60%;
 }
 
 a.d-flex.direction-column{
     align-items: center;
-    padding-right: 10px;
+    padding-right: 15px;
     color:var(--spoty-white);
     padding-top: 15px;
 }
@@ -319,7 +342,7 @@ a.d-flex.direction-column{
     flex-wrap: wrap;
     align-items: center;
     justify-content: flex-start; /*poi vediamo*/
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 .album-container.popular>img{
@@ -414,8 +437,14 @@ a.d-flex.direction-column>.large {
 
 .top-control.d-flex span>i:before{
     color:var(--spoty-white);
-    padding:15px;
+    padding:10px;
 }
+.top-control.d-flex span>i.far.fa-play-circle.fa-2xl{
+    font-size: 6em;
+    line-height: .03125em;
+    vertical-align: -.1875em;
+}
+
  .col-3.d-flex>div:not(.name,.icons,.img-container){
     color: var(--spoty-white); 
 }
