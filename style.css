@@ -428,6 +428,7 @@ a.d-flex.direction-column>.large {
 
 .name>.song-name,.artist{
     font-size: 12px;
+    padding-left: 10px;
 
     &.song-name{
         color: var(--spoty-white);
@@ -436,6 +437,11 @@ a.d-flex.direction-column>.large {
     &.artist{
         color: var(--spoty-text);
         font-weight: 900;
+    }
+    &.artist:hover{
+        color: var(--spoty-white);
+        font-weight: 900;
+        text-decoration-line: underline;
     }
 }
 
