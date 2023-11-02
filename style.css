@@ -286,9 +286,10 @@ span.nv {
     position: fixed;
     top: 0;
     right: 0;
-    background-color: red;
+    background-color: var(--spoty-upgrade);
+    opacity: 40%;
     height: 80px;
-    width: 55px;
+    width: 15px;
 }
 .btn-large{
     font-weight: 900;
