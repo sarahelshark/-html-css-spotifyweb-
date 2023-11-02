@@ -68,7 +68,7 @@ a,li {
  /*flex*/
 .d-flex{                          
     display: flex;
-    align-items: baseline;
+    align-items: last baseline;
 }
 
 .direction-column{
@@ -82,6 +82,10 @@ a,li {
 }
 .no-wrap{
     flex-wrap: nowrap ;
+}
+
+.align-center{
+    align-items: center;
 }
 /*fine flex*/
 
@@ -152,6 +156,7 @@ a.d-flex>span:hover{
 }
 a.d-flex{
     position: relative;
+    align-items: center;
 }
 .accent{
     position: absolute;
@@ -176,12 +181,13 @@ a.d-flex{
 ::before{
     color: var(--spoty-text);
 }
-.white>svg {
+.accent + svg {
     height: 20px;
-    padding-right: 3px;
-    padding-left: 15px;
-    margin-bottom: -5px;
+    padding-right: 4px;
+    margin-bottom: 8px;
+    padding-left: 14px;
 }
+
 /*center*/
 
 .playlist-nav>ul {
@@ -734,7 +740,16 @@ a.d-flex.direction-column>.large {
     .row>div:nth-child(3){
         min-width: calc(100% / 3);
     }
+
+    .accent + svg {
+        height: 20px;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-bottom: 8px;
+        padding-top: 0px;
+    }
     
+    /*uso questi parametri anche per le altre icone*/
 
 
 } 
