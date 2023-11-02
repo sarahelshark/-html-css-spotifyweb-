@@ -163,7 +163,7 @@ a.d-flex{
     font-weight: 900;
 }
 ::before{
-    color: var(--spoty-text);
+    color: var(--spoty-white);
 }
 .accent + svg {
     height: 20px;
@@ -231,6 +231,9 @@ strong {
 }
 #white::before {
     color: var(--spoty-white); 
+}
+#icons::before{
+    color: var(--spoty-text);
 }
 #icons:hover::before {
     color: var(--spoty-white); 
