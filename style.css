@@ -150,7 +150,13 @@ a.d-flex>span.white{
 a.d-flex>span:hover{
     color: var(--spoty-white);
 }
+a.d-flex{
+    position: relative;
+}
 .accent{
+    position: absolute;
+    top: 0;
+    left: 0;
     height: 25px;
     width: 3px;
     border-radius: 2px;
@@ -170,7 +176,12 @@ a.d-flex>span:hover{
 ::before{
     color: var(--spoty-text);
 }
-
+.white>svg {
+    height: 20px;
+    padding-right: 3px;
+    padding-left: 15px;
+    margin-bottom: -5px;
+}
 /*center*/
 
 .playlist-nav>ul {
