@@ -64,13 +64,10 @@ a,li {
 .uppercase{
     text-transform: uppercase;
 }
-
- /*flex*/
 .d-flex{                          
     display: flex;
     align-items: last baseline;
 }
-
 .direction-column{
     flex-direction: column;
 }
@@ -83,23 +80,9 @@ a,li {
 .no-wrap{
     flex-wrap: nowrap ;
 }
-
 .align-center{
     align-items: center;
 }
-/*fine flex*/
-
-                                   /*spacing*/
-
-/*fine spacing*/
-
-                                    /*containers*/
-
-/*fine containers*/
-
-                                     /*bottoni*/
-                                   
-/*fine bottoni*/
 
 /*#endregion utilities*/
 /*************************************************************/
@@ -153,6 +136,7 @@ a.d-flex>span.white{
 }
 a.d-flex>span:hover{
     color: var(--spoty-white);
+    cursor: pointer;
 }
 a.d-flex{
     position: relative;
@@ -213,6 +197,7 @@ ul.side li{
 }
 .playlist-nav span:only-of-type:hover{
     color:var(--spoty-white);
+    cursor: pointer;
 }
 strong {
     color: var(--spoty-white);
@@ -226,6 +211,7 @@ strong {
 } 
 #special:hover::before{
         color: var(--spoty-white);
+        cursor: pointer;
     }
     
 /*bottom*/
@@ -241,12 +227,14 @@ strong {
 }
 .bottom-nav span:only-of-type:hover{
     color:var(--spoty-white);
+    cursor: pointer;
 }
 #white::before {
     color: var(--spoty-white); 
 }
 #icons:hover::before {
     color: var(--spoty-white); 
+    cursor: pointer;
 }
 hr:only-of-type{
     width: 150px;
@@ -328,6 +316,7 @@ span.nv {
 .btn-large:hover{
     padding: 10px 30px;
     font-size: 15px;
+    cursor: pointer;
 }
 /*#endregion upgrade*/
 /*************************************************************/
@@ -358,6 +347,7 @@ span.nv {
 }
 .section-titles>a:hover{
     color: var(--spoty-white);
+    cursor: pointer;
 }
 #site_main>h2{
     color: var(--spoty-white);
@@ -405,7 +395,8 @@ span.nv {
     vertical-align: -.1875em;
 }
 .album-container:hover .img-overlay {
-    opacity : 60%;
+    opacity : 70%;
+    cursor: pointer;
 }
 
 a.d-flex.direction-column{
@@ -494,10 +485,12 @@ a.d-flex.direction-column>.large {
         color: var(--spoty-white);
         font-weight: 900;
         text-decoration-line: underline;
+        cursor: pointer;
     }
 }
 .top-control.d-flex span>i.fa-regular.fa-circle-play.fa-2xl:hover::before {
     font-size: 35px;
+    cursor: pointer;
 }
 .icons>.fa-regular.fa-heart,.fa-regular.fa-folder{
     color: var(--spoty-text);
@@ -570,6 +563,7 @@ a.d-flex.direction-column>.large {
     height:100%;
     background-color: var(--spoty-accent);
     border-radius: 6px;
+    cursor: pointer;
 }
 .pointer{
     height: 12px;
@@ -585,9 +579,11 @@ a.d-flex.direction-column>.large {
 }
 .square.d-flex:hover>.pointer {
     display: block;
+    cursor: pointer;
 }
  & .square-sm.d-flex:hover>.pointer {
     display: block;
+    cursor: pointer;
 }  
 .song-sm{
     width: 30%;
@@ -610,6 +606,7 @@ a.d-flex.direction-column>.large {
     height:100%;
     background-color: var(--spoty-accent);
     border-radius: 6px;
+    cursor: pointer;
 }
 .col-4.tools.d-flex span>i:before{
     color:var(--spoty-white);
