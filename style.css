@@ -682,6 +682,11 @@ a.d-flex.direction-column>.large {
 
 
 @media screen and (max-width:596px){
+    .icons {
+        display: flex;
+        /* padding-bottom: 2px; */
+        flex-direction: column;
+    }
    
     aside.sidebar.d-flex.direction-column {
         width: 50px;
