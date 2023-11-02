@@ -280,6 +280,15 @@ a.d-flex.direction-column >h3{
     align-items: center;
     justify-content: flex-end;
     background-color: var(--spoty-upgrade);
+    position: relative;
+}
+span.nv {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: red;
+    height: 80px;
+    width: 55px;
 }
 .btn-large{
     font-weight: 900;
