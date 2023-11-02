@@ -27,6 +27,21 @@ a,li {
     overflow-y:scroll;
 }
 
+/*customized scrollbar*/
+#wrapper::-webkit-scrollbar {
+    width: 13px;               /* width of the entire scrollbar */
+  }
+  
+  #wrapper::-webkit-scrollbar-track {
+    background: var(--spoty-white);        /* color of the tracking area */
+  }
+  
+  #wrapper::-webkit-scrollbar-thumb {
+    background-color: var(--spoty-scroll);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid var(--spoty-white);  /* creates padding around scroll thumb */
+  }
+
 :root{
     --spoty-side:#000000;
     --spoty-upgrade:#080B12;
@@ -34,6 +49,7 @@ a,li {
     --spoty-player:#282828;
     --spoty-white:#FFFFFF;
     --spoty-text:#6F6F6F;/*grigi in pagina da rivedere dopo*/
+    --spoty-scroll:#C8C8C8;
     --spoty-accent:#99EE00;
 }
 
