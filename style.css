@@ -230,7 +230,7 @@ strong {
     
 /*bottom*/
 .bottom-nav>div {
-    padding-top: 120px;
+    padding-top: 53px;
     padding-left: 0.75rem;  /*allineamento con il logo sopra*/
     display: flex;
     flex-direction: column;
@@ -722,7 +722,8 @@ a.d-flex.direction-column>.large {
     }
 
     .bottom-nav>div {
-        padding-top: 350px;
+        padding-top: 400px;
+        padding-left: 0.5rem;
     }
 
     .col-2.d-flex{
@@ -782,7 +783,7 @@ a.d-flex.direction-column>.large {
     
     
     .bottom-nav>div {
-        padding-top: 350px;
+        
     }
 
 
@@ -808,7 +809,6 @@ a.d-flex.direction-column>.large {
 
 @media screen and (max-width:992px){
     .bottom-nav>div {
-        padding-top: 350px;
     }
     
 } 
