@@ -690,7 +690,6 @@ a.d-flex.direction-column>.large {
     .accent,.invisible{
         display: none;
     }
-    
     a>span{
         display: none;
     }
@@ -715,7 +714,6 @@ a.d-flex.direction-column>.large {
     .user>strong , div>hr{
         display:none;
     }
-
     .bottom-nav>div {
         padding-top: 775px;
         padding-left: 0.5rem;
@@ -738,24 +736,34 @@ a.d-flex.direction-column>.large {
     }
     .col-2.d-flex{
         justify-content: space-between;
-        min-width: calc(100% / 3);
-        min-height: calc(100% / 2);
-    }
-    .img-container {
-        min-width: 50px;
-        min-height: 50px;
+        width: calc(100% / 4);
     }
     .top-control.d-flex span>i:before {
         padding: 5px;
     }
-
+    .img-container {
+        width: 40px;
+        aspect-ratio: 1 / 1;
+    }
+    .col-3.d-flex{
+        padding: 0 1rem;
+    }
+    .duration{
+        padding: 0 5px;
+    }
     [class^="col-"] {
         padding-left: 0rem; 
         padding-right: 0rem; 
     }
     
     .row>div:nth-child(3){
-        min-width: calc(100% / 3);
+        width: calc(100% / 4);
+    }
+   .col-4.tools.d-flex{
+     padding: 0 5px;
+    }
+    .col-4.tools.d-flex>span{
+        padding-left: 0px;
     }
 
     .accent + svg {
@@ -773,6 +781,7 @@ a.d-flex.direction-column>.large {
         margin-bottom: 8px;
         padding-top: 0px;
     }
+    
 
 } 
 
@@ -828,16 +837,20 @@ a.d-flex.direction-column>.large {
     }
 
     .col-2.d-flex{
-        justify-content: space-between;
-        min-width: calc(100% / 3);
-        min-height: calc(100% / 2);
+        width: calc(100% / 4);
     }
     .img-container {
-        min-width: 50px;
-        min-height: 50px;
+        width: 40px;
+        aspect-ratio: 1 / 1;
     }
     .top-control.d-flex span>i:before {
         padding: 5px;
+    }
+    .col-3.d-flex{
+        padding: 0 1rem;
+    }
+    .duration{
+        padding: 0 5px;
     }
 
     [class^="col-"] {
@@ -846,8 +859,14 @@ a.d-flex.direction-column>.large {
     }
     
     .row>div:nth-child(3){
-        min-width: calc(100% / 3);
+        width: calc(100% / 3);
     }
+    .col-4.tools.d-flex{
+        padding: 0 5px;
+       }
+     .col-4.tools.d-flex>span{
+           padding-left: 0px;
+       }
 
     .accent + svg {
         height: 20px;
@@ -865,6 +884,7 @@ a.d-flex.direction-column>.large {
         padding-top: 0px;
     }
     /*uso questi parametri anche per le altre icone*/
+    
 
 
 } 
@@ -889,19 +909,23 @@ a.d-flex.direction-column>.large {
 
 
     .col-2.d-flex{
-        min-width: calc(100% / 3);
-        min-height: calc(100% / 2);
+        width: calc(100% / 4);
     }
     .img-container {
-        min-width: 50px;
-        min-height: 50px;
+        min-width: 40px;
+        aspect-ratio: 1 / 1;
     }
     .top-control.d-flex span>i:before {
         padding: 5px;
     }
     
     .row>div:nth-child(3){
-        min-width: calc(100% / 3);
+        width: calc(100% / 3);
+    }.col-4.tools.d-flex{
+     padding: 0 5px;
+    }
+    .col-4.tools.d-flex>span{
+        padding-left: 0px;
     }
     
 } 
