@@ -670,7 +670,7 @@ a.d-flex.direction-column>.large {
 /*#region mediaquery*/
 
 
-@media screen and (max-width:596px){
+@media screen and (max-width:459px){
     
     .icons {
         display: flex;
@@ -784,9 +784,9 @@ a.d-flex.direction-column>.large {
     
 
 } 
+/*end of xs breakpoint*/
 
-
-@media screen and (max-width:768px){
+@media screen and (max-width:625px){
     .album {
         flex-grow: 2;
     }
@@ -891,13 +891,11 @@ a.d-flex.direction-column>.large {
 
 
 } 
-/*end of sm breakpoint*/
+/*end of md breakpoint*/
 
 
-@media screen and (max-width:992px){
-    .album {
-        flex-grow: 2;
-    }
+@media screen and (max-width:768x){
+    
     .icons {
         display: flex;
         /* padding-bottom: 2px; */
@@ -936,24 +934,9 @@ a.d-flex.direction-column>.large {
 
     
 } 
-/*end of md breakpoint*/
+/*end of xl breakpoint*/
 
 
-
-
-@media screen and (max-width:992px){
-    .bottom-nav>div {
-    }
-    
-} 
-/*end of lg breakpoint*/
-
-@media screen and (max-width:1200px){
-    
-} 
-@media screen and (max-width:1440px){
-    
-} 
 /*end of breakpoint*/
 
 /*#endregion mediaquery*/
