@@ -436,14 +436,21 @@ a.d-flex.direction-column>.large {
     background-color: var(--spoty-player);
     /*  tolto: "position: fixed; bottom: 0;" ===>vedo come si comporta nella media query*/
 }
-.row{
+/*player*/.row{
     display: flex;
     flex-wrap: nowrap;
-    margin: 0 -1rem;
+    /*margin: 0 -1rem; tolto, mi piace piu' cosi'*/
     height: 100%;
     align-items: center;
-    justify-content: space-between;
-   
+    justify-content: space-between;    
+}
+/*albums*/.row2 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    align-items: start;
+    justify-content:flex-start;
+    flex-basis: 95%;
 }
 [class^="col-"]{
     padding-left: 1rem;
