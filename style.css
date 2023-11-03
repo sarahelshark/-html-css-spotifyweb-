@@ -409,6 +409,8 @@ span.nv {
 li.adaptive {
     height: 40vh;
     flex-grow: 1;
+    display: flex;
+    justify-content: flex-start;
   }
 .album-container.d-flex>img {
     max-height: 100%;
