@@ -407,7 +407,6 @@ span.nv {
     flex-wrap: wrap;
   }
 li.adaptive {
-    height: 40vh;
     flex-grow: 1;
     display: flex;
     justify-content: flex-start;
