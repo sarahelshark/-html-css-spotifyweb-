@@ -670,14 +670,13 @@ a.d-flex.direction-column>.large {
 /*#region mediaquery*/
 
 
-@media screen and (max-width:552px){
+@media screen and (max-width:596px){
     
     .icons {
         display: flex;
         /* padding-bottom: 2px; */
         flex-direction: column;
     }
-   
     aside.sidebar.d-flex.direction-column {
         width: 50px;
     }
@@ -782,11 +781,12 @@ a.d-flex.direction-column>.large {
         padding-top: 0px;
     }
     
+    
 
 } 
 
 
-@media screen and (max-width:596px){
+@media screen and (max-width:768px){
     .album {
         flex-grow: 2;
     }
@@ -894,7 +894,7 @@ a.d-flex.direction-column>.large {
 /*end of sm breakpoint*/
 
 
-@media screen and (max-width:768px){
+@media screen and (max-width:992px){
     .album {
         flex-grow: 2;
     }
