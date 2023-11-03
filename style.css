@@ -787,6 +787,9 @@ a.d-flex.direction-column>.large {
 
 
 @media screen and (max-width:596px){
+    .album {
+        flex-grow: 2;
+    }
     .icons {
         display: flex;
         /* padding-bottom: 2px; */
@@ -901,13 +904,7 @@ a.d-flex.direction-column>.large {
         display: flex;
         flex-direction: column;
     }  
-    
-    
-    .bottom-nav>div {
-        
-    }
-
-
+   
     .col-2.d-flex{
         width: calc(100% / 4);
     }
@@ -927,6 +924,7 @@ a.d-flex.direction-column>.large {
     .col-4.tools.d-flex>span{
         padding-left: 0px;
     }
+
     
 } 
 /*end of md breakpoint*/
