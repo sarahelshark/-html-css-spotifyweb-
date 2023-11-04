@@ -216,7 +216,7 @@ strong {
     
 /*bottom*/
 .bottom-nav>div {
-    padding-top: 53px;
+    padding-top: 40px;
     padding-left: 0.75rem;  /*allineamento con il logo sopra*/
     display: flex;
     flex-direction: column;
@@ -716,10 +716,7 @@ a.d-flex.direction-column>.large {
     .user>strong , div>hr{
         display:none;
     }
-    .bottom-nav>div {
-        padding-top: 775px;
-        padding-left: 0.5rem;
-    }
+    
     .container-lg {
         padding-left: 0px;
     }
@@ -757,7 +754,6 @@ a.d-flex.direction-column>.large {
         padding-left: 0rem; 
         padding-right: 0rem; 
     }
-    
     .row>div:nth-child(3){
         width: calc(100% / 4);
     }
@@ -767,7 +763,6 @@ a.d-flex.direction-column>.large {
     .col-4.tools.d-flex>span{
         padding-left: 0px;
     }
-
     .accent + svg {
         height: 20px;
         padding-right: 0px;
@@ -775,7 +770,6 @@ a.d-flex.direction-column>.large {
         margin-bottom: 8px;
         padding-top: 0px;
     }
-    
     .invisible + svg {
         height: 20px;
         padding-right: 0px;
@@ -784,8 +778,6 @@ a.d-flex.direction-column>.large {
         padding-top: 0px;
     }
     
-    
-
 } 
 /*end of xs breakpoint*/
 
@@ -797,8 +789,7 @@ a.d-flex.direction-column>.large {
         display: flex;
         /* padding-bottom: 2px; */
         flex-direction: column;
-    }
-   
+    }   
     aside.sidebar.d-flex.direction-column {
         width: 50px;
     }
@@ -811,7 +802,6 @@ a.d-flex.direction-column>.large {
     .accent,.invisible{
         display: none;
     }
-    
     a>span{
         display: none;
     }
@@ -836,12 +826,6 @@ a.d-flex.direction-column>.large {
     .user>strong , div>hr{
         display:none;
     }
-
-    .bottom-nav>div {
-        padding-top: 775px;
-        padding-left: 0.5rem;
-    }
-
     .col-2.d-flex{
         width: calc(100% / 4);
     }
@@ -858,12 +842,10 @@ a.d-flex.direction-column>.large {
     .duration{
         padding: 0 5px;
     }
-
     [class^="col-"] {
         padding-left: 0rem; 
         padding-right: 0rem; 
     }
-    
     .row>div:nth-child(3){
         width: calc(100% / 3);
     }
@@ -873,7 +855,6 @@ a.d-flex.direction-column>.large {
      .col-4.tools.d-flex>span{
            padding-left: 0px;
        }
-
     .accent + svg {
         height: 20px;
         padding-right: 0px;
@@ -881,7 +862,6 @@ a.d-flex.direction-column>.large {
         margin-bottom: 8px;
         padding-top: 0px;
     }
-    
     .invisible + svg {
         height: 20px;
         padding-right: 0px;
@@ -904,8 +884,6 @@ a.d-flex.direction-column>.large {
         /* padding-bottom: 2px; */
         flex-direction: row;
     }
-   
-    
     .aside-nav>ul {
         padding-top: 65px;
         align-items: flex-start; 
@@ -914,7 +892,6 @@ a.d-flex.direction-column>.large {
         display: flex;
         flex-direction: column;
     }  
-   
     .col-2.d-flex{
         width: calc(100% / 4);
     }
@@ -925,16 +902,15 @@ a.d-flex.direction-column>.large {
     .top-control.d-flex span>i:before {
         padding: 5px;
     }
-    
     .row>div:nth-child(3){
         width: calc(100% / 3);
-    }.col-4.tools.d-flex{
+    }
+    .col-4.tools.d-flex{
      padding: 0 5px;
     }
     .col-4.tools.d-flex>span{
         padding-left: 0px;
     }
-
     
 } 
 /*end of xl breakpoint*/
