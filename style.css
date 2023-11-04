@@ -219,7 +219,7 @@ strong {
 /*bottom*/
 .bottom-nav>div {
     padding-top: 45px;
-    padding-left: 0.75rem;  /*allineamento con il logo sopra*/
+    padding-left: .75rem;  /*allineamento con il logo sopra*/
     display: flex;
     flex-direction: column;
 }  
@@ -675,7 +675,8 @@ a.d-flex.direction-column>.large {
 /*#region mediaquery*/
 
 @media screen and (max-width:459px){
-    
+
+
     .icons {
         display: flex;
         /* padding-bottom: 2px; */
@@ -778,7 +779,9 @@ a.d-flex.direction-column>.large {
         margin-bottom: 8px;
         padding-top: 0px;
     }
-    
+    .bottom-nav.d-flex>div{
+        padding-top: ;
+    }
 } 
 /*end of xs breakpoint*/
 
