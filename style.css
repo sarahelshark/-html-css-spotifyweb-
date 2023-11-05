@@ -680,6 +680,8 @@ a.d-flex.direction-column>.large {
 /*************************************************************/
 
 /*#region mediaquery*/
+
+/*width*/
 @media screen and (max-width:459px){
 
     .icons {
@@ -784,7 +786,6 @@ a.d-flex.direction-column>.large {
     
 } 
 /*end of xs breakpoint*/
-
 @media screen and (max-width:625px){
     
     .album {
@@ -877,8 +878,6 @@ a.d-flex.direction-column>.large {
 
 } 
 /*end of md breakpoint*/
-
-
 @media screen and (max-width:768x){
     aside.sidebar.d-flex.direction-column {
         width: 290px;
@@ -920,7 +919,7 @@ a.d-flex.direction-column>.large {
 } 
 /*end of xl breakpoint*/
 
-
+/*height*/
 @media  screen and (max-height:666px) {
     .bottom-nav.d-flex {
         position: fixed;
