@@ -474,7 +474,7 @@ a.d-flex.direction-column>.large {
     padding-right: 1rem;
 }
 .col-2{
-    width: calc((100% /12)* 2.75rem);
+    width: calc((100% /12)* 2.75);
     height: 100%;
     align-items: center;
 }
@@ -608,7 +608,7 @@ a.d-flex.direction-column>.large {
     display: block;
     cursor: pointer;
 }
- & .square-sm.d-flex:hover>.pointer {
+.square-sm.d-flex:hover>.pointer {
     display: block;
     cursor: pointer;
 }  
