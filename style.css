@@ -878,11 +878,10 @@ a.d-flex.direction-column>.large {
 
 } 
 /*end of md breakpoint*/
-@media screen and (max-width:768x){
+@media screen and (max-width:768px){
     aside.sidebar.d-flex.direction-column {
-        width: 290px;
+        width: 50px;
     }
-    
     .icons {
         display: flex;
         /* padding-bottom: 2px; */
