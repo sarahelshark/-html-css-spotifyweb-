@@ -928,5 +928,32 @@ a.d-flex.direction-column>.large {
         top: calc(100vh - 160px);
     }
 }
+@media  screen and (max-height:150px) {
+    .bottom-nav.d-flex {
+        position: fixed;
+        z-index: -1;
+        top: calc(100vh - 160px);
+    }
+    .logo-hidden{
+        height: 30px;
+        margin-top: 10px;
+        margin-bottom:3px ;
+        margin-left: 0.5rem ;
+        position: fixed; 
+        z-index: -1;
+        top: 0;
+        left: 0;
+        display: none;
+    }
+    .logo-main {
+        height: 50px;
+        padding-top: 1rem;
+        padding-left: 0.75rem;
+        position: fixed; 
+        z-index: -1;
+        top: 0;
+        left: 0;
+    }
+}
 /*#endregion mediaquery*/
 /*************************************************************/
