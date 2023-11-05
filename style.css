@@ -97,7 +97,7 @@ a,li {
     margin-top: 10px;
     margin-bottom:3px ;
     margin-left: 0.5rem ;
-    position: absolute; 
+    position: fixed; 
     top: 0;
     left: 0;
     display: none;
@@ -106,7 +106,7 @@ a,li {
     height: 50px;
     padding-top: 1rem;
     padding-left: 0.75rem;
-    position: absolute; 
+    position: fixed; 
     top: 0;
     left: 0;
 }
