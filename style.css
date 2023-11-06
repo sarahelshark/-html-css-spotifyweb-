@@ -682,6 +682,144 @@ a.d-flex.direction-column>.large {
 /*#region mediaquery*/
 
 /*width*/
+
+@media  screen and(max-width:1200px) {
+    
+}
+
+@media screen and (max-width:768px){
+    aside.sidebar.d-flex.direction-column {
+        width: 50px;
+    }
+    .icons {
+        display: flex;
+        /* padding-bottom: 2px; */
+        flex-direction: row;
+    }
+    .aside-nav>ul {
+        padding-top: 65px;
+        align-items: flex-start; 
+        justify-content: center;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }  
+    .col-2.d-flex{
+        width: calc(100% / 4);
+    }
+    .img-container {
+        min-width: 40px;
+        aspect-ratio: 1 / 1;
+    }
+    .top-control.d-flex span>i:before {
+        padding: 5px;
+    }
+    .row>div:nth-child(3){
+        width: calc(100% / 3);
+    }
+    .col-4.tools.d-flex{
+     padding: 0 5px;
+    }
+    .col-4.tools.d-flex>span{
+        padding-left: 0px;
+    }
+    
+} 
+/*end of xl breakpoint*/
+
+@media screen and (max-width:625px){
+    
+    .album {
+        flex-grow: 2;
+    }
+    .icons {
+        display: flex;
+        /* padding-bottom: 2px; */
+        flex-direction: column;
+    }   
+    .logo-main{
+        display: none;
+    }
+    .logo-hidden{
+        display: flex;
+    }
+    .accent,.invisible{
+        display: none;
+    }
+    a>span{
+        display: none;
+    }
+    .aside-nav>ul {
+        padding-top: 50px;
+        padding-left: 0.75rem;  /*allineamento con il logo sopra*/
+        align-items: flex-start; 
+        justify-content: center;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }  
+    .playlist-nav.d-flex {
+        display: none;
+    } 
+    .bottom-nav span:only-of-type {
+        display: none;
+    }
+    .bottom-nav strong:only-of-type {
+        display: none;
+    }
+    .user>strong , div>hr{
+        display:none;
+    }
+    .col-2.d-flex{
+        width: calc(100% / 4);
+    }
+    .img-container {
+        width: 40px;
+        aspect-ratio: 1 / 1;
+    }
+    .top-control.d-flex span>i:before {
+        padding: 5px;
+    }
+    .col-3.d-flex{
+        padding: 0 1rem;
+    }
+    .duration{
+        padding: 0 5px;
+    }
+    [class^="col-"] {
+        padding-left: 0rem; 
+        padding-right: 0rem; 
+    }
+    .row>div:nth-child(3){
+        width: calc(100% / 3);
+    }
+    .col-4.tools.d-flex{
+        padding: 0 5px;
+       }
+     .col-4.tools.d-flex>span{
+           padding-left: 0px;
+       }
+    .accent + svg {
+        height: 20px;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-bottom: 8px;
+        padding-top: 0px;
+    }
+    .invisible + svg {
+        height: 20px;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-bottom: 8px;
+        padding-top: 0px;
+    }
+    /*uso questi parametri anche per le altre icone*/
+    
+
+
+}
+/*end of md breakpoint*/
+
 @media screen and (max-width:459px){
 
     .icons {
@@ -785,138 +923,7 @@ a.d-flex.direction-column>.large {
     }
     
 } 
-/*end of xs breakpoint*/
-@media screen and (max-width:625px){
-    
-    .album {
-        flex-grow: 2;
-    }
-    .icons {
-        display: flex;
-        /* padding-bottom: 2px; */
-        flex-direction: column;
-    }   
-    .logo-main{
-        display: none;
-    }
-    .logo-hidden{
-        display: flex;
-    }
-    .accent,.invisible{
-        display: none;
-    }
-    a>span{
-        display: none;
-    }
-    .aside-nav>ul {
-        padding-top: 50px;
-        padding-left: 0.75rem;  /*allineamento con il logo sopra*/
-        align-items: flex-start; 
-        justify-content: center;
-        margin: auto;
-        display: flex;
-        flex-direction: column;
-    }  
-    .playlist-nav.d-flex {
-        display: none;
-    } 
-    .bottom-nav span:only-of-type {
-        display: none;
-    }
-    .bottom-nav strong:only-of-type {
-        display: none;
-    }
-    .user>strong , div>hr{
-        display:none;
-    }
-    .col-2.d-flex{
-        width: calc(100% / 4);
-    }
-    .img-container {
-        width: 40px;
-        aspect-ratio: 1 / 1;
-    }
-    .top-control.d-flex span>i:before {
-        padding: 5px;
-    }
-    .col-3.d-flex{
-        padding: 0 1rem;
-    }
-    .duration{
-        padding: 0 5px;
-    }
-    [class^="col-"] {
-        padding-left: 0rem; 
-        padding-right: 0rem; 
-    }
-    .row>div:nth-child(3){
-        width: calc(100% / 3);
-    }
-    .col-4.tools.d-flex{
-        padding: 0 5px;
-       }
-     .col-4.tools.d-flex>span{
-           padding-left: 0px;
-       }
-    .accent + svg {
-        height: 20px;
-        padding-right: 0px;
-        padding-left: 0px;
-        margin-bottom: 8px;
-        padding-top: 0px;
-    }
-    .invisible + svg {
-        height: 20px;
-        padding-right: 0px;
-        padding-left: 0px;
-        margin-bottom: 8px;
-        padding-top: 0px;
-    }
-    /*uso questi parametri anche per le altre icone*/
-    
-
-
-} 
-/*end of md breakpoint*/
-@media screen and (max-width:768px){
-    aside.sidebar.d-flex.direction-column {
-        width: 50px;
-    }
-    .icons {
-        display: flex;
-        /* padding-bottom: 2px; */
-        flex-direction: row;
-    }
-    .aside-nav>ul {
-        padding-top: 65px;
-        align-items: flex-start; 
-        justify-content: center;
-        margin: auto;
-        display: flex;
-        flex-direction: column;
-    }  
-    .col-2.d-flex{
-        width: calc(100% / 4);
-    }
-    .img-container {
-        min-width: 40px;
-        aspect-ratio: 1 / 1;
-    }
-    .top-control.d-flex span>i:before {
-        padding: 5px;
-    }
-    .row>div:nth-child(3){
-        width: calc(100% / 3);
-    }
-    .col-4.tools.d-flex{
-     padding: 0 5px;
-    }
-    .col-4.tools.d-flex>span{
-        padding-left: 0px;
-    }
-    
-} 
-/*end of xl breakpoint*/
+/*end of xs breakpoint*/ 
 
 /*height*/
 @media  screen and (max-height:666px) {
