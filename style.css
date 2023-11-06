@@ -684,10 +684,6 @@ a.d-flex.direction-column>.large {
 
 /*width*/
 
-@media  screen and(min-width:769px) {
-    
-}
-
 @media screen and (max-width:768px){
     aside.sidebar.d-flex.direction-column {
         width: 50px;
