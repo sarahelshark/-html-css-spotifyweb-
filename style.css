@@ -430,7 +430,7 @@ li.adaptive {
   }
 a.d-flex.direction-column{
     align-items: center;
-    padding-right: 15px;
+    padding-right: 10px;
     color:var(--spoty-white);
     padding-top: 15px;
 }
@@ -522,6 +522,10 @@ a.d-flex.direction-column>.large {
 .icons>.fa-regular.fa-heart,.fa-regular.fa-folder{
     color: var(--spoty-text);
 }
+.icons {
+    display: flex;
+    flex-direction: row;
+}
 
 .img-container{
     max-width: 50px ;
@@ -531,9 +535,6 @@ a.d-flex.direction-column>.large {
 .img-container img{
     width: 100%;
     
-}
-.col-2.d-flex {
-    justify-content: space-between;
 }
 
 .row>div:nth-child(2){
@@ -683,7 +684,7 @@ a.d-flex.direction-column>.large {
 
 /*width*/
 
-@media  screen and(max-width:1200px) {
+@media  screen and(min-width:769px) {
     
 }
 
